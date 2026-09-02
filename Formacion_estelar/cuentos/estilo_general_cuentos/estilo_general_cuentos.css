@@ -1,0 +1,53 @@
+@import url("/index/Estilos/Estilo.css");
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+
+.cuerpoCuentos{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.contenedorImagenFondo{
+  width: 100%;
+  padding-bottom: 56.25%; 
+  background-image: url('/cuentos/a_margarita/img/1_a_margarita.png'); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+}
+
+
+
+.imagenCuento {
+  position: relative;
+  display: inline-block; 
+}
+
+
+.imagen-fondo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.textoEncima {
+  position: absolute;
+  top: 50%;        
+  left: 50%;      
+  transform: translate(-50%, -50%); /* Alineación exacta al centro */
+  color: white;    
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+
+h1 {
+  font-family: 'short-stack-regular', cursive;
+  font-weight: 700;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start; 
+}
