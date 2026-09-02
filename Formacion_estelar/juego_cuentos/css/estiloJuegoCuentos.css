@@ -1,0 +1,36 @@
+@import url("/index/Estilos/Estilo.css");
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+h1{
+ font-family: 'short-stack-regular', cursive;
+ font-weight: 700;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start; 
+}
+
+/* Alinea los contenedores en línea */
+.contenedorCuentos {
+  margin: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+
+.caja {
+  border-radius: 8px; 
+}
+
+
+.contenedorImagenFinal {
+  width: 150px;
+  height: 150px;
+  background-color: #3498db; /* Azul */
+}
+
+
+.contenedorPreguntas {
+  width: 250px;
+  height: 150px;
+  background-color: #e74c3c; /* Rojo */
+}
