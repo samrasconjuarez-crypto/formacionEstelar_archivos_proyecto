@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+/*-------------------Barra de Inicio---------------------------------------*/
+#logo{
+background-color: rgb(188, 224, 255);
+font-size: 25px;
+text-decoration: none;
+padding: 10px;
+display:flex;
+align-items: center;
+}
+#logo h1{
+font-size: 35px;
+padding-left: 2px;
+color: rgb(45, 76, 178);
+
+}
+#logo img{
+padding-left: 20px;
+}
+
+#logo1 img{
+padding: 5px;
+padding-left: 2%;
+text-align: left;
+float: left;
+}
+
+.no-underline {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(45, 76, 178);
+    
+}
+
+#logo a{
+    color: rgb(45, 76, 178);
+}
+
+/*-----------Parallax-------------------------------------------*/
+
+section#slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+div#content-images-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.image-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size:  contain;
+}
+
+h1#slider-text {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    background: linear-gradient(0deg, rgba(166, 166, 166,1) 0%, rgba(255, 255, 255,1) 32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section#content {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+/*-------------------Cuentos--------------------------------*/
+
+.Cuentos{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    padding: 1%;
+}
+
+.Cuentos p{
+   font-size: 16px;
+}
+
+#cuento_Nombre{
+width: 25%;
+padding: 1%;
+}
+
+.Cuentos img{
+    width: 100%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    padding-bottom: 15px;
+    transition: 0.3s ease;
+
+}
+
+.Cuentos img:hover {
+    filter: drop-shadow(0 0 12px rgba(45, 76, 178, 0.8));
+    transform: scale(1.03);
+}
+
+hr{
+
+    background-color: black;
+    width: 90%;
+    height: 2px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+button{
+    background-color: rgb(188, 224, 255);
+    border:none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: rgb(1, 56, 110); 
+}
+
+/*-----------------Formulario----------------------------------*/
+
+
+.contenedor {
+    background-color: #FFCD6E; 
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content: left;
+    display: flex;
+    width: 95%;
+    align-items: center;
+    gap:8%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #c17c33;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+.contenedor img{
+    width: 120%;
+    float: left;
+    padding: 25px;
+    
+}
+
+#parte1{
+    width: 40%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    padding: 5%;
+    text-align: left;
+}
+
+.formulario{
+    padding-right: 5%;
+    width: 40%;
+}
+
+.contenedor h1 {
+    font-size: 2rem; 
+    padding: 2%; 
+}
+
+.campo {
+    
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.campo label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+#mensaje textarea{
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+button:focus, input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6); 
+}
+
+
+/*------------foot---------------*/
+#foot{
+background-color: #01386E;
+font-size: 20px ;
+text-decoration: none;
+padding: 20px 5%;
+display:flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.no-underline {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+   
+}
+#foot #logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

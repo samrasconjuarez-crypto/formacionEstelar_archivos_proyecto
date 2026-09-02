@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="/img_generales/icono_formacion_estelar.ico" type="image/x-icon">
+    <title>Formacion Estelar</title>
+    <link rel="stylesheet" href="Estilos/Estilo.css">
+</head>
+<body>
+      <!------------------Espacio para los temas------------------->
+    
+    <div id="logo">
+        <div id="logo1"> <a href="index.html"><img src="Imagenes/logo_con_icono_horizontal_con_blanco.png" width="35%" ></a></div>
+         <h1>|</h1>
+         <a href="#" class="no-underline">Nombre</a>
+        
+        <img src="Imagenes/gatito1.png" width="80px" >
+    </div>
+
+     <!------------------Efecto -Paralax----------------------------------------------->
+     <section id="slider">
+         <div id="content-images-slider">
+            <img src="Imagenes/fondo.png" width="100%">
+            <div class="image-slider rellax" data-rellax-speed="-6" style='background-image: url(imagenes/estrellas.png)'></div>
+            <div class="image-slider rellax" data-rellax-speed="-6" style='background-image: url(imagenes/estrellas\ puntos-01.png)'></div>
+            <div class="image-slider rellax" data-rellax-speed="-4" style='background-image: url(imagenes/osito.png)'></div> 
+            <div class="image-slider rellax" data-rellax-speed="-2" style='background-image: url(imagenes/capi.png)'></div> 
+            <div class="image-slider rellax" data-rellax-speed="-2" style='background-image: url(imagenes/gatito.png)'></div> 
+            <div class="image-slider rellax" data-rellax-speed="-2" style='background-image: url(imagenes/inu.png)'></div> 
+
+           
+            <div class="image-slider" style='background-image: url(imagenes/logo.png)'></div>
+         </div>
+     </section>
+<br>
+<br>
+     <div class="Cuentos">
+        <div id="cuento_Nombre">
+            <a href="#"><img src="Imagenes/portada.png"></a>
+            <h1>A margarita</h1>
+            <p>Anonimo</p></div> 
+            
+        <div id="cuento_Nombre">
+            <a href="#"><img src="Imagenes/PortadaPez.png"></a>
+            <h1>Boca Ancha</h1>
+            <p>Joseph Jacobs</p>
+        </div> 
+        <div id="cuento_Nombre">
+            <a href="#"><img src="Imagenes/PortadaPrincipe.png"></a>
+            <h1>El Principe Feliz</h1>
+            <p>Oscar Wilde</p>
+        </div> 
+
+        <div id="cuento_Nombre">
+            <a href="#"><img src="Imagenes/portadaEstrellas.png"></a>
+            <h1>El niño que contaba estrellas</h1>
+            <p>Anonimo</p>
+        </div> 
+     </div>
+     
+   
+<hr>
+    
+    <button>Conoce mas cuentos</button>
+    <br><br><br>
+    
+    
+
+      <div class="contenedor">
+        <div id="parte1">
+              <h1>¿Tienes un cuento que contar?</h1>
+        <img src="Imagenes/login.png" alt="">
+        <p>Toda la informacion se recopila de manera segura.</p>
+        <p>¡Recuerda siempre preguntar a tus padres antes de enviar cualquier historia a nosotros!</p>
+        </div>
+
+      
+
+
+        <form  action="PHP/registration.php" method="post" class="formulario">
+    
+        <div class="campo">
+            <label for="nombre" ></label>
+            <input type="text" name="username" placeholder="Nombre(s)" required>
+        </div>
+        
+        <div class="campo">
+            <label for="Apellido"></label>
+            <input type="text" name="apellido" placeholder="Apellido(s)" required>
+        </div>
+
+        <div class="campo">
+            <label for="correo"></label>
+            <input type="email" name="correo" placeholder="Correo" required>
+        </div>
+
+         <div class="campo">
+            <div id="mensaje">
+            <label for="mensaje"></label>
+            <textarea name="mensaje" placeholder="Escribe tu mensaje aqui..."></textarea>
+            </div>
+        </div>
+
+        <label>
+            <input type="checkbox"  name="anonimo"  value="1"> Permanecer Anonimo
+        </label>
+        <br>
+        <label>
+            <input type="checkbox"  name="novedades" value="1"> Acepto recbir novedades y comentarios de mi cuenta
+        </label>
+        <br><br><br>
+    
+        <button type="submit"  name="register">Registrar</button>
+    </form>
+    </div>
+
+    <div id="foot">
+        <a href="#" class="no-underline">Nombre</a>
+        <a href="#" class="no-underline">Nombre</a>
+        <div id="logo1"><img src="Imagenes/logocorto.png" width="25%" ></div>
+        <a href="#" class="no-underline">Nombre</a>
+        <a href="#" class="no-underline">Nombre</a>
+    </div>
+
+     
+
+    <script src='js/rellax.min.js'></script>
+     <script src='js/index.js'></script>
+
+     
+</body>
+</html>

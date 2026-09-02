@@ -1,0 +1,69 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ }
+
+ body {
+     background-image: url(../perfiles_img/fondo_estrellas.png);
+     background-size: cover;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+
+ .contenedor_perfiles {
+     text-align: center;
+ }
+
+ h1 {
+     font-size: 50px;
+     margin-bottom: 10%;
+ }
+
+ .lista_perfiles {
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+     list-style: none;
+     margin-bottom: 10%;
+ }
+
+ .icono_perfil {
+     text-align: center;
+ }
+
+ .vinculo_perfil {
+     text-decoration: none;
+     color: #6e6e6e;
+     display: flex;
+     flex-direction: column;
+   
+ }
+
+ .foto_perfil {
+     width: 15vw;
+     height: 15vw;
+     border: 1px solid #fff;
+     border-radius: 50%;
+     margin-bottom: 10px;
+     transition: 0.2s ;
+ }
+
+ .foto_perfil img {
+     width: 100%;
+
+ }
+
+ .vinculo_perfil:hover .foto_perfil {
+     box-shadow: 0 0 25px #0ff, 0 0 50px #0ff;
+     transition: 0.2s;
+     color: #fff;
+ }
+
+ .vinculo_perfil:hover .nombre_perfil {
+     color: #fff;
+ }
