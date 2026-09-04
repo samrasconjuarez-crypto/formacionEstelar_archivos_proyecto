@@ -1,36 +1,82 @@
 @import url("/index/Estilos/Estilo.css");
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
-h1{
- font-family: 'short-stack-regular', cursive;
- font-weight: 700;
+* {
+  transition: all 0.3s;
+}
+
+h1 {
+  font-family: 'short-stack-regular', cursive;
+  font-weight: 700;
   margin: 20px;
   display: flex;
-  justify-content: flex-start; 
-}
-
-/* Alinea los contenedores en línea */
-.contenedorCuentos {
-  margin: 50px;
-  display: flex;
-  gap: 20px;
+  justify-content: flex-start;
 }
 
 
-.caja {
-  border-radius: 8px; 
+
+.contenedor {
+     background-color: rgb(188, 224, 255);
+  width: 98vw;
+  height: 97vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imagen_juegos {
+  object-fit: cover;
+  height: 0px;
+  width: 0px;
+}
+
+.contenedor #imagen_juegos{
+    width: 120%;
+    float: left;
+    padding: 0px;
+    
+}
+.encabezado {
+  position: relative;
+  background: white;
+  min-width: 300px;
+  width: 70%;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.categoria {
+  opacity: 0.3;
+  text-align: left;
+}
+
+.pregunta {
+  padding: 10px;
 }
 
 
-.contenedorImagenFinal {
-  width: 150px;
-  height: 150px;
-  background-color: #3498db; /* Azul */
+
+.btn {
+  background: white;
+  width: 60%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
 }
 
+.btn:hover {
+  transform: scale(1.05);
+}
 
-.contenedorPreguntas {
-  width: 250px;
-  height: 150px;
-  background-color: #e74c3c; /* Rojo */
+.numero {
+  position: absolute;
+  opacity: 0.3;
+  top: 10px;
+  right: 10px;
+}
+
+.puntaje {
+  padding: 10px;
+  color: white;
 }

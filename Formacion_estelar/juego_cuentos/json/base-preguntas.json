@@ -1,0 +1,37 @@
+[
+    {   
+        "pregunta": "¿Cuál era el nombre del poeta, amigo de Margarita?",
+        "respuesta": "Rubén Darío\r",
+        "incorrecta1": "Picasso",
+        "incorrecta2": "Alberto Julián\r",
+        "incorrecta3": "Juan Jose",
+        "imagen_juegos": "/juego_cuentos/img/imagen_premio/1.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿Qué era lo que deseaba Margarita al verlo brillar?",
+        "respuesta": "Una estrella",
+        "incorrecta1": "Una linda moneda",
+        "incorrecta2": "Una perla", 
+        "incorrecta3": "Una rosa blanca",
+        "imagen_juegos": "/juego_cuentos/img/imagen_premio/2.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿Cómo crees que se sintió el rey, el papá de Margarita, al descubrir que ella tomo la estrella del cielo sin su permiso?",
+        "respuesta": "Molesto",
+        "incorrecta1": "Curioso",
+        "incorrecta2": "Contento",
+        "incorrecta3": "Triste",
+      "imagen_juegos": "/juego_cuentos/img/imagen_premio/3.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "Al final, ¿que animal desfiló con Margarita para celebrar el haber obtenido la estrella?",
+        "respuesta": "Elefantes",
+        "incorrecta1": "Jirafas",
+        "incorrecta2": "Camellos",
+        "incorrecta3": "Caballos",
+        "imagen_juegos": "/juego_cuentos/img/imagen_premio/4.png"
+    }
+]
